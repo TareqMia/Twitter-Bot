@@ -1,10 +1,5 @@
-# mytwitterbot.py
-# IAE 101, Fall 2019
-# Project 02 - Building a Twitterbot
 # Name: Tareq Mia      
-# netid: TMIA   
-
-
+ 
 import sys
 import simple_twit
 import requests
@@ -66,12 +61,7 @@ def main():
         tweet = simple_twit.send_tweet(api, message)
     
     
-        
-    
-    
-    
 
-    
     simple_twit.version()
     
 
